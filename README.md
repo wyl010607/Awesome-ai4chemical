@@ -7,14 +7,14 @@ This repository focuses on AI applications in chemistry from a computer science 
 ## Contents
 
 - [Papers](#papers)
-  - [Molecular Property Prediction](#molecular-property-prediction)
-  - [Molecular Generation](#molecular-generation)
-  - [Retrosynthesis and Synthesis Planning](#retrosynthesis-and-synthesis-planning)
-  - [Reaction Prediction](#reaction-prediction)
-  - [Molecular Representation Learning](#molecular-representation-learning)
-  - [Quantum Chemistry](#quantum-chemistry)
-  - [Drug Discovery](#drug-discovery)
-  - [Materials Discovery](#materials-discovery)
+  - [Molecular Representation & Property Prediction](#molecular-representation--property-prediction)
+  - [Molecular Generation & Inverse/Drug Design](#molecular-generation--inversedrug-design)
+  - [Reaction Prediction & Retrosynthesis & Synthesis Planning](#reaction-prediction--retrosynthesis--synthesis-planning)
+  - [ML Potentials & Molecular/Coarse-Grained Dynamics](#ml-potentials--molecularcoarse-grained-dynamics)
+  - [ML for Quantum Chemistry & Electronic Structure](#ml-for-quantum-chemistry--electronic-structure)
+  - [Materials & Catalysis Discovery](#materials--catalysis-discovery)
+  - [Polymers, Soft Matter & Biomolecular Systems](#polymers-soft-matter--biomolecular-systems)
+  - [Datasets, Benchmarks, Toolkits & Surveys in AI4Chem](#datasets-benchmarks-toolkits--surveys-in-ai4chem)
 - [Tools and Libraries](#tools-and-libraries)
   - [Molecular Representation](#molecular-representation)
   - [Machine Learning Frameworks](#machine-learning-frameworks)
@@ -28,77 +28,45 @@ This repository focuses on AI applications in chemistry from a computer science 
 
 ## Papers
 
-### Molecular Property Prediction
+### Molecular Representation & Property Prediction
 
-Predicting chemical and physical properties of molecules using machine learning.
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-- **Analyzing Learned Molecular Representations for Property Prediction** - Yang et al., Journal of Chemical Information and Modeling (2019) [[Paper]](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237)
-- **Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective** - Fang et al., AAAI (2022) [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20626)
-- **Communicative Representation Learning on Attributed Molecular Graphs** - Song et al., IJCAI (2020) [[Paper]](https://www.ijcai.org/proceedings/2020/392)
-- **Self-Supervised Graph Transformer on Large-Scale Molecular Data** - Rong et al., NeurIPS (2020) [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html)
+### Molecular Generation & Inverse/Drug Design
 
-### Molecular Generation
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-Generating novel molecular structures with desired properties.
+### Reaction Prediction & Retrosynthesis & Synthesis Planning
 
-- **Junction Tree Variational Autoencoder for Molecular Graph Generation** - Jin et al., ICML (2018) [[Paper]](http://proceedings.mlr.press/v80/jin18a.html)
-- **GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation** - Shi et al., ICLR (2020) [[Paper]](https://openreview.net/forum?id=S1esMkHYPr)
-- **Learning to Extend Molecular Scaffolds with Structural Motifs** - Kong et al., ICLR (2022) [[Paper]](https://openreview.net/forum?id=ZTsoE8G3GG)
-- **Molecule Generation by Principal Subgraph Mining and Assembling** - Kong et al., NeurIPS (2022) [[Paper]](https://openreview.net/forum?id=5MNV3WvIRP)
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-### Retrosynthesis and Synthesis Planning
+### ML Potentials & Molecular/Coarse-Grained Dynamics
 
-AI-driven methods for planning chemical synthesis routes.
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-- **Retrosynthetic Reaction Prediction Using Neural Sequence-to-Sequence Models** - Liu et al., ACS Central Science (2017) [[Paper]](https://pubs.acs.org/doi/10.1021/acscentsci.7b00303)
-- **Learning to Make Generalizable and Diverse Predictions for Retrosynthesis** - Yan et al., arXiv (2020) [[Paper]](https://arxiv.org/abs/2010.09114)
-- **RetroXpert: Decompose Retrosynthesis Prediction like a Chemist** - Yan et al., NeurIPS (2020) [[Paper]](https://proceedings.neurips.cc/paper/2020/hash/819f46e52c25763a55cc642422644317-Abstract.html)
-- **Graph Neural Networks for Learning Molecular Excitation Spectra** - Chen et al., Journal of Chemical Theory and Computation (2021) [[Paper]](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00753)
+### ML for Quantum Chemistry & Electronic Structure
 
-### Reaction Prediction
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-Predicting products and outcomes of chemical reactions.
+### Materials & Catalysis Discovery
 
-- **Predicting Organic Reaction Outcomes with Weisfeiler-Lehman Network** - Coley et al., ACS Central Science (2017) [[Paper]](https://pubs.acs.org/doi/10.1021/acscentsci.7b00064)
-- **A Transformer Model for Retrosynthesis** - Schwaller et al., ACS Central Science (2019) [[Paper]](https://pubs.acs.org/doi/10.1021/acscentsci.9b00576)
-- **Graph Transformation Policy Network for Chemical Reaction Prediction** - Dai et al., KDD (2019) [[Paper]](https://dl.acm.org/doi/10.1145/3292500.3330958)
-- **Learning Graph Models for Retrosynthesis Prediction** - Somnath et al., NeurIPS (2021) [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/8e4a9e7c0f3f3d3e8e3e3e3e3e3e3e3e-Abstract.html)
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-### Molecular Representation Learning
+### Polymers, Soft Matter & Biomolecular Systems
 
-Learning effective representations of molecules for downstream tasks.
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
-- **Strategies for Pre-training Graph Neural Networks** - Hu et al., ICLR (2020) [[Paper]](https://openreview.net/forum?id=HJlWWJSFDH)
-- **Pre-training Molecular Graph Representation with 3D Geometry** - Fang et al., ICLR (2022) [[Paper]](https://openreview.net/forum?id=xQUe1pOKPam)
-- **Chemical-Reaction-Aware Molecule Representation Learning** - Zheng et al., ICLR (2022) [[Paper]](https://openreview.net/forum?id=6sh3pIzKS-)
-- **Geometry-enhanced Molecular Representation Learning for Property Prediction** - Fang et al., Nature Machine Intelligence (2022) [[Paper]](https://www.nature.com/articles/s42256-021-00438-4)
+### Datasets, Benchmarks, Toolkits & Surveys in AI4Chem
 
-### Quantum Chemistry
-
-Using AI to accelerate quantum chemical calculations and predictions.
-
-- **SchNet: A Continuous-filter Convolutional Neural Network for Modeling Quantum Interactions** - Schütt et al., NeurIPS (2017) [[Paper]](https://papers.nips.cc/paper/2017/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html)
-- **E(n) Equivariant Graph Neural Networks** - Satorras et al., ICML (2021) [[Paper]](http://proceedings.mlr.press/v139/satorras21a.html)
-- **GemNet: Universal Directional Graph Neural Networks for Molecules** - Gasteiger et al., NeurIPS (2021) [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/35cf8659cfcb13224cbd47863a34fc58-Abstract.html)
-- **OrbNet: Deep Learning for Quantum Chemistry Using Symmetry-Adapted Atomic-Orbital Features** - Qiao et al., Journal of Chemical Physics (2020) [[Paper]](https://aip.scitation.org/doi/10.1063/5.0021955)
-
-### Drug Discovery
-
-AI applications in pharmaceutical research and drug development.
-
-- **Optimizing Distributions over Molecular Space. An Objective-Reinforced Generative Adversarial Network for Inverse-design Chemistry** - Sanchez-Lengeling et al., ChemRxiv (2017) [[Paper]](https://chemrxiv.org/engage/chemrxiv/article-details/60c73d91702a9beea7189bc8)
-- **Molecular De-Novo Design through Deep Reinforcement Learning** - Popova et al., Journal of Cheminformatics (2018) [[Paper]](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0286-7)
-- **Deep Learning for Molecular Design—A Review of the State of the Art** - Elton et al., Molecular Systems Design & Engineering (2019) [[Paper]](https://pubs.rsc.org/en/content/articlelanding/2019/me/c9me00039a)
-- **Multi-Objective Molecule Generation using Interpretable Substructures** - Jin et al., ICML (2020) [[Paper]](http://proceedings.mlr.press/v119/jin20b.html)
-
-### Materials Discovery
-
-AI-driven discovery of new materials and catalysts.
-
-- **Machine Learning for Molecular and Materials Science** - Butler et al., Nature (2018) [[Paper]](https://www.nature.com/articles/s41586-018-0337-2)
-- **Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals** - Xie et al., Chemistry of Materials (2019) [[Paper]](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)
-- **Accelerating Materials Discovery with Bayesian Optimization and Graph Deep Learning** - Griffiths et al., Materials Horizons (2022) [[Paper]](https://pubs.rsc.org/en/content/articlelanding/2022/mh/d1mh01818c)
-- **Crystal Diffusion Variational Autoencoder for Periodic Material Generation** - Xie et al., ICLR (2022) [[Paper]](https://openreview.net/forum?id=03RLpj-tc_)
+- **Placeholder Paper 1** - Author et al., Conference/Journal (Year) [[Paper]](#)
+- **Placeholder Paper 2** - Author et al., Conference/Journal (Year) [[Paper]](#)
 
 ## Tools and Libraries
 
